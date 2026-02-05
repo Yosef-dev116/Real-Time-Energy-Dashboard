@@ -20,6 +20,11 @@ Full-stack web application with a Python backend and a React frontend.
 - React
 - JavaScript
 - CSS
+- 
+## Demo
+This project does not have a hosted live demo.
+
+The frontend and backend are intended to be run locally for development and testing.
 
 ## How to Run Locally
 
