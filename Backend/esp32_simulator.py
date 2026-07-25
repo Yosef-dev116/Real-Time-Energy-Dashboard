@@ -1,9 +1,10 @@
+import os
 import requests
 import time
 import random
 from datetime import datetime, timezone
 
-API_URL = "http://127.0.0.1:8081/api/readings"
+API_URL = os.environ.get("API_URL", "http://127.0.0.1:8081/api/readings")
 
 POWER_VALUES = [120, 240, 360, 480, 600, 720, 960, 1080]
 
