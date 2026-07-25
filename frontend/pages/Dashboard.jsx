@@ -9,7 +9,7 @@ import {
   ResponsiveContainer,
 } from "recharts";
 
-const API_BASE = "http://127.0.0.1:8081";
+const API_BASE = import.meta.env.VITE_API_BASE || "http://127.0.0.1:8081";
 
 export default function Dashboard() {
   const [currentPower, setCurrentPower] = useState(0);
